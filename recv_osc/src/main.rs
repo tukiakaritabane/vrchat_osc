@@ -35,7 +35,7 @@ fn main() {
                 println!("Received packet with size {} from: {}", size, addr);
                 let (_, packet) = decoder::decode_udp(&buf[..size]).unwrap();
                 handle_packet(packet);
-            },
+            }
             Err(_) => {},
         }
     }
