@@ -1,0 +1,7 @@
+[package]
+name = "send_osc"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+rosc.workspace = true

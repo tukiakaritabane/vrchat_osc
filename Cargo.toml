@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "recv_osc",
+    "send_osc"
+]
+
+[workspace.package]
+version = "0.0.1"
+edition = "2021"
+
+[workspace.dependencies]
+rosc = "0.10.1"
